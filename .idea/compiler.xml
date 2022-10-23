@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ynws-dubbo-service" />
-        <module name="ynws-dubbo-consumer" />
-        <module name="ynws-dubbo-api" />
+        <module name="tekin-dubbo-service" />
+        <module name="tekin-dubbo-consumer" />
+        <module name="tekin-dubbo-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,9 +19,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ynws-dubbo-api" options="-parameters" />
-      <module name="ynws-dubbo-consumer" options="-parameters" />
-      <module name="ynws-dubbo-service" options="-parameters" />
+      <module name="tekin-dubbo-api" options="-parameters" />
+      <module name="tekin-dubbo-consumer" options="-parameters" />
+      <module name="tekin-dubbo-service" options="-parameters" />
     </option>
   </component>
 </project>
