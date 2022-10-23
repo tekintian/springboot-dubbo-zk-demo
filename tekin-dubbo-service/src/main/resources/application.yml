@@ -14,7 +14,7 @@ dubbo: # dubbo provider config
     name: dubbo-provider-demo
   protocol: 
     name: dubbo
-    port: 20882 # dubbo provider服务通信端口
+    port: 20880 # dubbo provider服务通信端口
   registry: # 注册中心配置，根据所使用的注册中心来配置
     address: zookeeper://127.0.0.1:2181
     client: zkclient
