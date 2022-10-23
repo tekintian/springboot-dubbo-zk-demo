@@ -1,0 +1,20 @@
+spring: 
+  application: 
+    name: tekin-dubbo-service
+  main: 
+    allow-bean-definition-overriding: true
+server: 
+  port: 9090
+dubbo: # dubbo provider config
+  service: 
+    version: 1.0.0
+  scan: # service实现所在包扫描配置
+    basePackages: cn.tekin.demo.dubbo.service
+  application: 
+    name: dubbo-provider-demo
+  protocol: 
+    name: dubbo
+    port: 20882 # dubbo provider服务通信端口
+  registry: # 注册中心配置，根据所使用的注册中心来配置
+    address: zookeeper://127.0.0.1:2181
+    client: zkclient

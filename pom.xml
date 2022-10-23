@@ -25,16 +25,11 @@
     </properties>
     <dependencies>
 <!--  springboot dubbo 公共依赖    -->
-        <!--添加springboot依赖，非web项目-->
+
+        <!--springboot依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <!--添加SpringBoot测试-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
 
         <!--添加dubbo的springboot依赖-->
@@ -51,6 +46,12 @@
             <version>2.6.12</version>
         </dependency>
 
+        <!--SpringBoot测试-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
     <build>

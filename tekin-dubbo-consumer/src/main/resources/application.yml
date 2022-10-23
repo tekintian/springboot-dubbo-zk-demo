@@ -1,0 +1,13 @@
+spring: 
+  application: 
+    name: tekin-dubbo-consumer
+  main: 
+    allow-bean-definition-overriding: true
+server: 
+  port: 9091
+dubbo: # dubbo consumer config
+  application: 
+    name: dubbo-consumer-demo
+  registry: 
+    address: zookeeper://127.0.0.1:2181
+    client: zkclient
